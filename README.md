@@ -5,17 +5,9 @@ Everything you need to be a FED!
 
 ## Requirements
 
-* Node >=0.10.0 (http://nodejs.org/)
-* Ruby >=1.9 (http://www.ruby-lang.org/en/)
-
 You'll need these installed before anything else will work.
 
-## Tools and Frameworks
-
-This is a brief explanation of some of the tools and frameworks we're using. These are the higher level
-tools that are unlikely to change any time soon.
-
-### [Node](http://nodejs.org/)
+### [Node](http://nodejs.org/) >=0.10.0
 
 > Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.
 
@@ -25,11 +17,25 @@ JavaScript and it's the build for the front-end developers, it's a perfect fit.
 Node uses the CommonJS module system which is the same module system we're using for our client-side JavaScript.
 This keeps things consistent and opens up the possibility of re-using code on both the front and back-end.
 
-### [Ruby](http://www.ruby-lang.org/en/)
+#### Mac
+
+```
+brew install node
+```
+
+#### Windows
+
+Get the [installer](http://nodejs.org/).
+
+### [Ruby](http://www.ruby-lang.org/en/) >=1.9
 
 > A dynamic, open source programming language with a focus on simplicity and productivity.
 
 We use Ruby primarily for building our Sass files into CSS files for the browser. Don't be afraid.
+
+#### Installation
+
+Get the [installer](http://nodejs.org/).
 
 ### [Sass](http://sass-lang.com/)
 
@@ -38,6 +44,8 @@ We use Ruby primarily for building our Sass files into CSS files for the browser
 We're using Sass to write most of our CSS. It allows us to write better CSS faster. Instead of writing `.css` files
 you instead create `.scss` files that compile into plain old CSS. This is done for you in the build (which is explained
 later on) so you shouldn't need to worry about getting your hands dirty with Ruby.
+
+#### Installation
 
 ```
 $ gem install sass
@@ -55,6 +63,8 @@ are extremely easy to write.
 
 We have a [number of custom Grunt tasks available in Stash](http://ntlvmbld01:7990/projects/GT)
 
+#### Installation
+
 ```
 $ npm install -g grunt-cli
 ```
@@ -66,6 +76,8 @@ the browser can use, turns templates into something JS can use, combines CSS and
 
 This is run automatically in the Grunt build.
 
+#### Installation
+
 ```
 $ npm install -g component
 ```
@@ -74,6 +86,8 @@ $ npm install -g component
 
 Mocha is the tool we use for running JavaScript unit tests. Client-side tests are made up of a test runner HTML file
 and the tests and other scripts are included like a normal, static web page.
+
+#### Installation
 
 ```
 $ npm install -g mocha
