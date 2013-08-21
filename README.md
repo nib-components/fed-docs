@@ -1,7 +1,7 @@
 FED
 ===
 
-Documentation for the front-end codebase
+Everything you need to be a FED!
 
 ## Requirements
 
@@ -55,15 +55,35 @@ are extremely easy to write.
 
 We have a [number of custom Grunt tasks available in Stash](http://ntlvmbld01:7990/projects/GT)
 
-## Getting Started
-
-Once you've got Node and Ruby, the first thing you'll need to do is install the global tools. First, Sass.
-
 ```
-$ gem install sass
+$ npm install -g grunt-cli
 ```
 
+### [Component](http://github.com/component/component)
 
+Component is the package manager and code build tool we're using for all projects. It turns CommonJS modules into something
+the browser can use, turns templates into something JS can use, combines CSS and manages images and other assets.
+
+This is run automatically in the Grunt build.
+
+```
+$ npm install -g component
+```
+
+### [Mocha](http://visionmedia.github.io/mocha/)
+
+Mocha is the tool we use for running JavaScript unit tests. Client-side tests are made up of a test runner HTML file
+and the tests and other scripts are included like a normal, static web page.
+
+```
+$ npm install -g mocha
+```
+
+## Project Structure
+
+## Styles
+
+## Scripts
 ## Grunt Build
 
 ### Custom Grunt Tasks
