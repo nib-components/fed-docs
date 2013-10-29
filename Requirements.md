@@ -2,6 +2,12 @@
 
 You'll need these installed before anything else will work.
 
+Note that you may need to install some packages as superuser (sudo), for example:
+
+```
+sudo npm install -g <package>
+```
+
 ## Node 
 
 http://nodejs.org/
