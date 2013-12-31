@@ -12,6 +12,10 @@ Install the following front-end tools:
 - **Ruby Installer** (for sass): [http://www.rubyinstaller.org/](http://www.rubyinstaller.org/)
 - **sass**: `gem install sass`
 
+### Resources
+- [Articles](https://github.com/nib-components/fed-docs/blob/master/Resources/1.%20Articles.md)
+- [Coding Conventions/Styleguides](https://github.com/nib-components/fed-docs/blob/master/Resources/1.%20Conventions.md)
+
 ### Todo
 
 - Shims
