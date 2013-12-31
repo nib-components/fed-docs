@@ -15,6 +15,7 @@ Install the following front-end tools:
 ### Resources
 - [Articles](https://github.com/nib-components/fed-docs/blob/master/Resources/1.%20Articles.md)
 - [Coding Conventions/Styleguides](https://github.com/nib-components/fed-docs/blob/master/Resources/2.%20Conventions.md)
+- [Miscellaneous](https://github.com/nib-components/fed-docs/blob/master/Resources/3.%20Miscellaneous.md)
 
 ### Todo
 
