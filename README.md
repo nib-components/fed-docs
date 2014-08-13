@@ -5,7 +5,7 @@ Everything you need to be a FED!
 Install the following front-end tools:
 
 - **nodejs** (includes NPM): [http://nodejs.org/](http://nodejs.org/)
-- **gruntjs**: `npm install -g grunt-cli`
+- **gruntjs**: `npm install -g grunt-cli` or **Gulp** `npm install --global gulp` [http://gulpjs.com/](http://gulpjs.com/)
 - **component package manager**: `npm install -g component`
 - **mocha test framework**: `npm install -g mocha`
 - **phantomjs headless browser**: [http://phantomjs.org/](http://phantomjs.org/)
