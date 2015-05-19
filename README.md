@@ -12,6 +12,7 @@ Install the following front-end tools:
 - **phantomjs headless browser**: [http://phantomjs.org/](http://phantomjs.org/)
 - **Ruby Installer** (for sass): [http://www.rubyinstaller.org/](http://www.rubyinstaller.org/)
 - **sass**: `gem install sass`
+- **testing**: https://github.com/nib-components/fed-docs/blob/master/testing.md
 
 ### Resources
 - [Articles](https://github.com/nib-components/fed-docs/blob/master/Resources/1.%20Articles.md)
