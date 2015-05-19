@@ -2,7 +2,7 @@
 
 ## External Components
 
-Check the `test/*.js` file. If it has `require('<component-name>')` use `component-test`. Otherwise test using `mocha` (because it's easier - usually for code which doesn't touch DOM).
+Check the `test/*.js` file. If it has `require('<component-name>')` use `component-test`. If it has `require('..')` use `mocha` (because it's easier - usually for code which doesn't touch DOM).
 
 ### Component
 
