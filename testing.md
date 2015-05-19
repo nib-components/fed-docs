@@ -2,7 +2,7 @@
 
 ## Components
 
-Install the tools:
+Install the tools (if you haven't already):
 
     npm i -g component component-test
 
