@@ -20,16 +20,14 @@ Install the following front-end tools:
 - [Miscellaneous](https://github.com/nib-components/fed-docs/blob/master/Resources/3.%20Miscellaneous.md)
 
 ### Todo
-
 - Shims
 - More testing docs
 - Books
-- General knowledge needed :
-  Promises
-  Function context
-  How the call stack works
-  Variable hoisting
-  ES5 Functions
-  Bind, Apply, Call
-  Events
-  Prototype
+- Angular
+- General knowledge needed:
+  - Function context
+  - How the call stack works
+  - Variable hoisting
+  - ES5 Functions
+  - Events
+  - Prototype
